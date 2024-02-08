@@ -1,0 +1,100 @@
+.wiki-container{
+    height:100%;
+    /* border: 1px solid black; */
+    padding: 0 20px;
+    width: 97%;
+    margin-top: 5px;
+}
+
+.nav-bar{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.line-barbutton{
+    background-color: white;
+    border: none;
+    height: 41px;
+    width: 36px;
+    font-size: 34px;
+    margin-top: 8px;
+    margin-right: 17px;
+}
+.line-barbutton:hover{
+    cursor: pointer;
+    background-color: #c8ccd1;
+}
+.wiki-img{
+    width: 16%;
+    display: flex;
+}
+
+.logo{
+    width: 25%;
+    /* border: 1px solid blue; */
+    background-image: url(circlelogo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text{
+    width: 68%;
+    /* border: 1px solid green; */
+    background-image: url(textlogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 11px;
+}
+
+.wiki-search{
+    display: flex;
+    width: 37%;
+}
+.wiki-input{
+    margin: 10px 0;
+    height: 60%;
+    width:80%;
+    font-size: 17px;
+    border-color: #c8ccd1;
+    border-width: thin;
+}
+
+.wiki-button{
+    margin: 10px 0;
+    height: 62%;
+    width:20%;
+    font-size: 18px;
+    border-color: #c8ccd1;
+    border-width: thin;
+}
+.wiki-button:hover{
+    cursor: pointer;
+}
+.wiki-links{
+    width: 30%;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.sub-links{
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 28px;
+    color: #3366cc;
+    font-family: sans-serif;
+}
+.sub-links:hover{
+    text-decoration: underline;
+}
+.sub-links-2{
+    text-decoration: none;
+    font-size: 36px;
+    margin-top: 8px;
+    color:black
+}

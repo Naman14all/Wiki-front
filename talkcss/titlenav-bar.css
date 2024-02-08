@@ -1,0 +1,118 @@
+.title-container{
+    width: 100%;
+    height: 5000px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    /* border: 1px solid black; */
+    margin-top: 18px;
+}
+
+.full-details{
+    width: 80%;
+    /* border: 1px solid rebeccapurple; */
+    margin-top: 22px ;
+}
+
+.title-container{
+    width: 100%;
+    height: 5000px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    /* border: 1px solid black; */
+    margin-top: 18px;
+}
+
+.full-details{
+    width: 74%;
+    /* border: 1px solid rebeccapurple; */
+    margin-top: 22px ;
+}
+.detail-heading{
+    width: 100%;
+    /* border: 1px solid orangered; */
+    /* margin-top: 22px ; */
+    display: flex;
+    height: 53px;
+}
+
+.full-details-heading{
+    width: 70%;
+    /* border: 2px solid gold; */
+    font-size: 39px;
+    height: 37px;
+
+}
+.full-details-langs{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    /* border: 2px solid brown; */
+    height: 37px;
+    
+   
+}
+.lang-button{
+    color: #3366cc;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    /* border:1px solid #3366cc; */
+    border: none;
+
+}
+.lang-button:hover{
+    cursor: pointer;
+}
+
+.detail-navbar{
+    /* border-top: 1px solid black; */
+    border-bottom: 1px solid #c8ccd1;
+    height: 46px;
+    margin-top: 4px;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailcont-1{
+    /* border: 1px solid black; */
+    width: 50%;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+}
+.detailcont-2{
+    /* border: 1px solid palevioletred; */
+    width: 50%;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+.dnav-links{
+    text-decoration: none;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+.dnavlink-type1{
+    color: black;
+    border-bottom: 2px solid black;
+    border-width: medium;
+}
+
+.dnavlink-type2{
+    color: #3366cc;
+}
+.dnavlink-type2:hover{
+    border-bottom: 1px solid #3366cc ;
+    border-width: medium;
+    
+}
+.dnavlink-type2:visited{
+    border-bottom: 2px solid black;
+}
+.dnavlink-type3{
+    color: black;
+}
